@@ -1,16 +1,13 @@
 package com.example.formslayout;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.annotation.Nullable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.os.Handler;
-import android.view.animation.Animation;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.formslayout.databinding.ActivityLoginLayoutBinding;
 
@@ -58,7 +55,7 @@ public class LoginLayout extends AppCompatActivity {
                     }
                 });
 
-                binding.cardView.startAnimation(fade_in);
+                binding.cardView.startAnimation(bottom_down);
                 binding.cardView5.startAnimation(fade_in);
                 binding.textView.startAnimation(fade_in);
                 binding.registerLayout.startAnimation(fade_in);
